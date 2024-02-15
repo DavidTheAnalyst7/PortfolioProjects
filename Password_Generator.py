@@ -42,7 +42,7 @@ def store():
 def view_pass():
     stored_password = final_password
     password_string = str(stored_password)
-    with open('storedpassword.txt', 'r') as sp:
+    with open('stored_password.txt', 'r') as sp:
            print("Your new password is ", password_string ) 
 
 storage = input("Do you want to store your password? type(y if you want to store / n for no)").lower()
